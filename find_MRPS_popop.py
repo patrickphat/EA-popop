@@ -3,11 +3,6 @@ import random
 from typing import List
 from pprint import pprint
 import yaml
-
-# from utils.fitness import calc_fitness_population
-# from utils.operation import initialize_population, merge_population
-# from utils.mating import mating_pool
-# from utils.selection import  tournament_selection
 from utils.lab import popop, popop_n_times_stop_if_fail, find_MRPS_popop
 import numpy as np
 import argparse
@@ -21,9 +16,6 @@ parser.add_argument(
     default="configs/default_config.yaml",
 )
 args = parser.parse_args()
-
-# with open(args.config, "r") as f:
-#     CFG = yaml.load(f, Loader=yaml.FullLoader)
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -39,8 +31,6 @@ CFGs = {
 
 BASE_RANDOM_SEED = 17520880
 np.random.seed(BASE_RANDOM_SEED)
-
-# def find_upper_bound(pop_size:int, n_bits:int, cross_n_mating_size:int , fitness_mode:str, crossover_mode:str):
 
 if __name__ == "__main__":
     with open(CFGs["log_path"], "a") as fp:
