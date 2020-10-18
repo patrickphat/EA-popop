@@ -1,0 +1,15 @@
+[Experiment] CFGs: {'n_bits': 10, 'fitness_mode': 'trap5', 'mate_n_select_scale': 4, 'crossover_mode': 'uniform', 'n_bisections': 10, 'log_path': 'logs/experiment_trap5_ux.log'}
+Bisection #01: {'MRPS': 765, 'mean_n_evaluations': 24.7}
+Bisection #02: {'MRPS': 511, 'mean_n_evaluations': 24.4}
+Bisection #03: {'MRPS': 431, 'mean_n_evaluations': 22.8}
+Bisection #04: {'MRPS': 487, 'mean_n_evaluations': 23.0}
+Bisection #05: {'MRPS': 585, 'mean_n_evaluations': 26.6}
+Bisection #06: {'MRPS': 1051, 'mean_n_evaluations': 22.2}
+Bisection #07: {'MRPS': 801, 'mean_n_evaluations': 24.2}
+Bisection #08: {'MRPS': 1857, 'mean_n_evaluations': 23.0}
+Bisection #09: {'MRPS': 447, 'mean_n_evaluations': 25.4}
+Bisection #10: {'MRPS': 685, 'mean_n_evaluations': 22.6}
+[Experiment] CFGs: {'n_bits': 20, 'fitness_mode': 'trap5', 'mate_n_select_scale': 4, 'crossover_mode': 'uniform', 'n_bisections': 10, 'log_path': 'logs/experiment_trap5_ux.log'}
+Bisection #01: {'MRPS': None, 'mean_n_evaluations': None}
+Bisection #02: {'MRPS': None, 'mean_n_evaluations': None}
+Bisection #03: {'MRPS': None, 'mean_n_evaluations': None}

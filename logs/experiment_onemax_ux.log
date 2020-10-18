@@ -1,0 +1,36 @@
+[Experiment] CFGs: {'n_bits': 10, 'fitness_mode': 'onemax', 'mate_n_select_scale': 4, 'crossover_mode': 'uniform', 'n_bisections': 10, 'log_path': 'logs/experiment_onemax_ux.log'}
+Bisection #01: {'MRPS': 25, 'mean_n_evaluations': 15.8}
+Bisection #02: {'MRPS': 19, 'mean_n_evaluations': 15.9}
+Bisection #03: {'MRPS': 25, 'mean_n_evaluations': 16.1}
+Bisection #04: {'MRPS': 11, 'mean_n_evaluations': 16.5}
+Bisection #05: {'MRPS': 17, 'mean_n_evaluations': 15.7}
+Bisection #06: {'MRPS': 33, 'mean_n_evaluations': 17.7}
+Bisection #07: {'MRPS': 45, 'mean_n_evaluations': 17.0}
+Bisection #08: {'MRPS': 29, 'mean_n_evaluations': 16.6}
+Bisection #09: {'MRPS': 15, 'mean_n_evaluations': 16.1}
+Bisection #10: {'MRPS': 49, 'mean_n_evaluations': 17.0}
+[Experiment] CFGs: {'n_bits': 20, 'fitness_mode': 'onemax', 'mate_n_select_scale': 4, 'crossover_mode': 'uniform', 'n_bisections': 10, 'log_path': 'logs/experiment_onemax_ux.log'}
+Bisection #01: {'MRPS': 111, 'mean_n_evaluations': 22.1}
+Bisection #02: {'MRPS': 53, 'mean_n_evaluations': 21.5}
+Bisection #03: {'MRPS': 85, 'mean_n_evaluations': 20.9}
+Bisection #04: {'MRPS': 201, 'mean_n_evaluations': 23.5}
+Bisection #05: {'MRPS': 109, 'mean_n_evaluations': 21.2}
+Bisection #06: {'MRPS': 43, 'mean_n_evaluations': 21.6}
+Bisection #07: {'MRPS': 31, 'mean_n_evaluations': 23.9}
+Bisection #08: {'MRPS': 63, 'mean_n_evaluations': 20.8}
+Bisection #09: {'MRPS': 51, 'mean_n_evaluations': 22.4}
+Bisection #10: {'MRPS': 31, 'mean_n_evaluations': 22.7}
+[Experiment] CFGs: {'n_bits': 40, 'fitness_mode': 'onemax', 'mate_n_select_scale': 4, 'crossover_mode': 'uniform', 'n_bisections': 10, 'log_path': 'logs/experiment_onemax_ux.log'}
+Bisection #01: {'MRPS': 1025, 'mean_n_evaluations': 29.4}
+Bisection #02: {'MRPS': 193, 'mean_n_evaluations': 29.6}
+Bisection #03: {'MRPS': 389, 'mean_n_evaluations': 29.5}
+Bisection #04: {'MRPS': 533, 'mean_n_evaluations': 31.5}
+Bisection #05: {'MRPS': 263, 'mean_n_evaluations': 27.4}
+Bisection #06: {'MRPS': 287, 'mean_n_evaluations': 28.1}
+Bisection #07: {'MRPS': 127, 'mean_n_evaluations': 32.1}
+Bisection #08: {'MRPS': 251, 'mean_n_evaluations': 27.8}
+Bisection #09: {'MRPS': 319, 'mean_n_evaluations': 27.4}
+Bisection #10: {'MRPS': 229, 'mean_n_evaluations': 28.3}
+[Experiment] CFGs: {'n_bits': 80, 'fitness_mode': 'onemax', 'mate_n_select_scale': 4, 'crossover_mode': 'uniform', 'n_bisections': 10, 'log_path': 'logs/experiment_onemax_ux.log'}
+Bisection #01: {'MRPS': 991, 'mean_n_evaluations': 39.7}
+Bisection #02: {'MRPS': 1471, 'mean_n_evaluations': 39.4}
