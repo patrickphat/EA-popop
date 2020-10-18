@@ -10,10 +10,10 @@
 
 1. POPOP algorithm with different settings:
 
-- Problem size `n_bits` (int)
-- Mating (Mutation) mode: `uniform` (UX) & `onepoint` (1X)
-- Fitness mode: `onemax` & `trap5`
-- Tournament size with abitrary numbers
+- Problem size
+- Tournament size
+- Mutation modes: Uniform and Onepoint
+- Fitness modes: Onemax and Trap5
 - Uniformly initialized population at every bits
 
 2. Searching and analyzing Minimally-Requirement Population Size (MRPS) with n bisections
@@ -42,16 +42,33 @@ pip install requirements.txt
 
 ## Usage
 
-Task 1: Run POPOP algorithm
+**Task 1:** Run POPOP algorithm
 
 ```bat
 python run_popop.py
 ```
 
-Task 2: Find Minimally-Requirement Population Size (MRPS)
+Configs:
+
+    - `n_bits` (int): Problem size (number of bits)
+    - `pop_size` (int): Number of population
+    - `fitness_mode` (str): Fitness evaluation of population, `onemax` or `trap5`
+    - `mate_n_select_scale` (int): Group size in tournament selection
+    - `crossover_mode` (str): Mutation mode, `uniform` or `onepoint`
+
+**Task 2:** Find Minimally-Requirement Population Size (MRPS)
 
 ```bat
 python find_MRPS_popop.py
 ```
+
+Configs:
+
+    - `n_bits` (int): Problem size (number of bits)
+    - `fitness_mode` (str): Fitness evaluation of population
+    - `mate_n_select_scale` (int): Group size in tournament selection
+    - `crossover_mode` (str): `uniform` and `onepoint`
+    - `n_bisections` (int): Number of bisections performed. Default is `10`
+    - `log_path` (str): Path to log file. Recommended to use `.log` extensions
 
 Please edit the config accordingly in `CFGs` variable of each file to your liking.
