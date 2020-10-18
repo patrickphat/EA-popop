@@ -45,7 +45,7 @@ pip install requirements.txt
 Task 1: Run POPOP algorithm
 
 ```bat
-python popop.py
+python run_popop.py
 ```
 
 Task 2: Find Minimally-Requirement Population Size (MRPS)
