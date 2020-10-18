@@ -42,7 +42,7 @@ pip install requirements.txt
 
 ## Usage
 
-**Task 1:** Run POPOP algorithm
+**TASK 2:** Run POPOP algorithm
 
 ```bat
 python run_popop.py
@@ -56,7 +56,7 @@ Configs:
 - `mate_n_select_scale` (int): Group size in tournament selection
 - `crossover_mode` (str): Mutation mode, `uniform` or `onepoint`
 
-**Task 2:** Find Minimally-Requirement Population Size (MRPS)
+**TASK 2:** Find Minimally-Requirement Population Size (MRPS)
 
 ```bat
 python find_MRPS_popop.py
