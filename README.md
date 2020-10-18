@@ -40,7 +40,7 @@ conda activate popop
 pip install requirements.txt
 ```
 
-## Usage
+## 📖 Usage
 
 **TASK 1:** Run POPOP algorithm
 
