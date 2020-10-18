@@ -50,11 +50,11 @@ python run_popop.py
 
 Configs:
 
-    - `n_bits` (int): Problem size (number of bits)
-    - `pop_size` (int): Number of population
-    - `fitness_mode` (str): Fitness evaluation of population, `onemax` or `trap5`
-    - `mate_n_select_scale` (int): Group size in tournament selection
-    - `crossover_mode` (str): Mutation mode, `uniform` or `onepoint`
+- `n_bits` (int): Problem size (number of bits)
+- `pop_size` (int): Number of population
+- `fitness_mode` (str): Fitness evaluation of population, `onemax` or `trap5`
+- `mate_n_select_scale` (int): Group size in tournament selection
+- `crossover_mode` (str): Mutation mode, `uniform` or `onepoint`
 
 **Task 2:** Find Minimally-Requirement Population Size (MRPS)
 
@@ -64,11 +64,11 @@ python find_MRPS_popop.py
 
 Configs:
 
-    - `n_bits` (int): Problem size (number of bits)
-    - `fitness_mode` (str): Fitness evaluation of population
-    - `mate_n_select_scale` (int): Group size in tournament selection
-    - `crossover_mode` (str): `uniform` and `onepoint`
-    - `n_bisections` (int): Number of bisections performed. Default is `10`
-    - `log_path` (str): Path to log file. Recommended to use `.log` extensions
+- `n_bits` (int): Problem size (number of bits)
+- `fitness_mode` (str): Fitness evaluation of population
+- `mate_n_select_scale` (int): Group size in tournament selection
+- `crossover_mode` (str): `uniform` and `onepoint`
+- `n_bisections` (int): Number of bisections performed. Default is `10`
+- `log_path` (str): Path to log file. Recommended to use `.log` extensions
 
 Please edit the config accordingly in `CFGs` variable of each file to your liking.
