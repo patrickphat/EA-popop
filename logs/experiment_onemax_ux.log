@@ -34,3 +34,4 @@ Bisection #10: {'MRPS': 229, 'mean_n_evaluations': 28.3}
 [Experiment] CFGs: {'n_bits': 80, 'fitness_mode': 'onemax', 'mate_n_select_scale': 4, 'crossover_mode': 'uniform', 'n_bisections': 10, 'log_path': 'logs/experiment_onemax_ux.log'}
 Bisection #01: {'MRPS': 991, 'mean_n_evaluations': 39.7}
 Bisection #02: {'MRPS': 1471, 'mean_n_evaluations': 39.4}
+Bisection #03: {'MRPS': 2693, 'mean_n_evaluations': 46.2}

@@ -1,2 +1,4 @@
 [Experiment] CFGs: {'n_bits': 10, 'fitness_mode': 'trap5', 'mate_n_select_scale': 4, 'crossover_mode': 'onepoint', 'n_bisections': 10, 'log_path': 'logs/experiment_trap5_1x.log'}
 Bisection #01: {'MRPS': 3587, 'mean_n_evaluations': 20.3}
+Bisection #02: {'MRPS': 4225, 'mean_n_evaluations': 20.6}
+Bisection #03: {'MRPS': 3841, 'mean_n_evaluations': 20.5}

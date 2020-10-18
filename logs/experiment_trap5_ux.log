@@ -13,3 +13,6 @@ Bisection #10: {'MRPS': 685, 'mean_n_evaluations': 22.6}
 Bisection #01: {'MRPS': None, 'mean_n_evaluations': None}
 Bisection #02: {'MRPS': None, 'mean_n_evaluations': None}
 Bisection #03: {'MRPS': None, 'mean_n_evaluations': None}
+Bisection #04: {'MRPS': 4095, 'mean_n_evaluations': 38.2}
+Bisection #05: {'MRPS': None, 'mean_n_evaluations': None}
+Bisection #06: {'MRPS': None, 'mean_n_evaluations': None}

@@ -5,3 +5,5 @@ Bisection #03: {'MRPS': 2909, 'mean_n_evaluations': 20.5}
 Bisection #04: {'MRPS': 1917, 'mean_n_evaluations': 19.3}
 Bisection #05: {'MRPS': 2303, 'mean_n_evaluations': 20.5}
 Bisection #06: {'MRPS': 2301, 'mean_n_evaluations': 20.2}
+Bisection #07: {'MRPS': 3333, 'mean_n_evaluations': 20.4}
+Bisection #08: {'MRPS': 2299, 'mean_n_evaluations': 20.3}
