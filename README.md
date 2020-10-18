@@ -23,8 +23,8 @@
 1. Clone this repo to your local machine:
 
 ```bash
-git clone git@github.com:patrickphat/popop-evolutionary-algorithm.git
-cd popop-evolutionary-algorithm
+git clone git@github.com:patrickphat/EA-popop.git
+cd EA-popop/
 ```
 
 2. (Optional) Create an fresh new python 3.8 environment. E.g, with conda:
@@ -42,7 +42,7 @@ pip install requirements.txt
 
 ## Usage
 
-**TASK 2:** Run POPOP algorithm
+**TASK 1:** Run POPOP algorithm
 
 ```bat
 python run_popop.py
