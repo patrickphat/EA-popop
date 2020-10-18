@@ -1,21 +1,7 @@
 import numpy as np
-import random
-from typing import List
-from pprint import pprint
-import yaml
-from utils.lab import popop, popop_n_times_stop_if_fail, find_MRPS_popop
+from utils.lab import find_MRPS_popop
 import numpy as np
-import argparse
 import logging
-
-parser = argparse.ArgumentParser()
-parser.add_argument(
-    "-c",
-    "--config",
-    help="path to train config file",
-    default="configs/default_config.yaml",
-)
-args = parser.parse_args()
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
