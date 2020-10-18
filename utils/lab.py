@@ -15,6 +15,7 @@ def popop(
     mate_n_select_scale: int,
     fitness_mode: str,
     crossover_mode: str,
+    print_log: bool = False,
 ):
     n_iters_no_change = 0
     n_evaluations = 0
@@ -39,6 +40,9 @@ def popop(
 
         # Calculate current fitness
         current_fitness = calc_fitness_population(population, fitness_mode=fitness_mode)
+
+        if print_log:
+            logger.info(f"Current fitness: {current_fitness}")
 
         if current_fitness == last_fitness:
             n_iters_no_change += 1

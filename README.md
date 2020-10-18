@@ -22,21 +22,21 @@
 
 1. Clone this repo to your local machine:
 
-```bat
+```bash
 git clone git@github.com:patrickphat/popop-evolutionary-algorithm.git
 cd popop-evolutionary-algorithm
 ```
 
 2. (Optional) Create an fresh new python 3.8 environment. E.g, with conda:
 
-```bat
+```bash
 conda create -n popop python=3.8
 conda activate popop
 ```
 
 3. Install all the requirements:
 
-```bat
+```bash
 pip install requirements.txt
 ```
 
@@ -53,3 +53,5 @@ Task 2: Find Minimally-Requirement Population Size (MRPS)
 ```bat
 python find_MRPS_popop.py
 ```
+
+Please edit the config accordingly in `CFGs` variable of each file to your liking.
