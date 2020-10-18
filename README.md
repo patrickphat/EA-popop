@@ -11,7 +11,7 @@
 1. POPOP algorithm with different settings:
 
 - Problem size
-- Tournament size
+- Tournament selection with size
 - Mutation modes: Uniform and Onepoint
 - Fitness modes: Onemax and Trap5
 - Uniformly initialized population at every bits
