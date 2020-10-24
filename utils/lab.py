@@ -25,24 +25,23 @@ def popop(
     while n_iters_no_change < 10:
         # Create new offsprigns
         new_offsprings = mating_pool(
-            population,
-            mating_size=mate_n_select_scale,
-            crossover_mode=crossover_mode,
+            population, mating_size=mate_n_select_scale, crossover_mode=crossover_mode,
         )
 
         # Merge new offsprings with new population
         population = merge_population(population, new_offsprings)
+
+        # Calculate current fitness
+        current_fitness = calc_fitness_population(population, fitness_mode=fitness_mode)
+        if print_log:
+            logger.info(f"Current fitness: {current_fitness}")
 
         # Tournament selection
         population = tournament_selection(
             population, tournament_size=mate_n_select_scale, fitness_mode=fitness_mode
         )
 
-        # Calculate current fitness
-        current_fitness = calc_fitness_population(population, fitness_mode=fitness_mode)
-
-        if print_log:
-            logger.info(f"Current fitness: {current_fitness}")
+        
 
         if current_fitness == last_fitness:
             n_iters_no_change += 1
